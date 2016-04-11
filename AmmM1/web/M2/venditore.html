@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="stationery, e-commerce">
+        <meta name="description" content="valp stationery e-commerce">
+        <meta name="author" content="Valentina Pes">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    </head>
+    <body>
+        <div id="page">
+            <div id="header">
+                <h1>VALPS stationery</h1>
+                <div id="navigation">
+                    <ul>
+                        <li><a href="descrizione.html">home</a></li>
+                        <li><a href="login.html">login</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="sidebar">
+                <h2>nav</h2>
+                <ul>
+                    <li>category</li>
+                    <li>category</li>
+                    <li>category</li>
+                    <li>category</li>
+                    <li>category</li>
+                    <li>category</li>
+                    <li>category</li>
+                    <li>category</li>
+                    <li>category</li>
+                    <li>category</li>
+                </ul>
+            </div>
+    
+            <div id="content">
+                <h2>Add an item.</h2>
+                <form action="venditore.html" method="post">
+                    <label for="urlimg">URL Image</label><br />
+                    <input type="url" name="urlimg" id="urlimg" value="" />
+                    <br />
+
+                    <label for="item">Item name</label><br />
+                    <input type="text" name="item" id="item" value="" />
+                    <br />
+
+                    <label for="description">Description</label><br />
+                    <textarea rows="4" cols="20" name="description" id="description">
+                        Descrizione oggetto
+                    </textarea>
+                    <br />
+
+                    <label for="quantity">Quantity</label><br />
+                    <input type="number" name="quantity" id="quantity" value="" />
+                    <br />
+
+                    <label for="price">Price (€)</label><br />
+                    <input type="number" name="price" id="price" value="" />
+                    <br />
+
+                    <input type="submit" name="commit" value="submit" class="send">
+                </form>    
+            </div>
+        
+            <div id="footer">
+                this is a footer yay
+            </div>
+        </div>
+    </body>
+</html>
